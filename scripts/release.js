@@ -48,7 +48,7 @@ prompt([
   echo('')
 
   echo(yellow('发布 npm 😁'))
-  exec('npm run build && npm publish --access public')
+  exec('npm publish --access public')
 
   echo(green('大功告成 🧨🧨🧨🧨🧨'))
 })
