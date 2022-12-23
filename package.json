@@ -25,7 +25,7 @@
   "files": [
     "package.json",
     "README.md",
-    "dist"
+    "src"
   ],
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
