@@ -1,0 +1,52 @@
+{
+  "name": "@daphnis/d-webpack-plugin",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit-lint": "commitlint --from origin/master --to HEAD",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "lint": "eslint -c ./.eslintrc --ext .jsx,.js,.ts,.tsx src",
+    "lint-fix": "eslint -c ./.eslintrc --ext .jsx,.js,.ts,.tsx src --fix",
+    "release": "./scripts/release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaphnisLi/D-Webpack-Plugin.git"
+  },
+  "keywords": [],
+  "author": "Daphnis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaphnisLi/D-Webpack-Plugin/issues"
+  },
+  "homepage": "https://github.com/DaphnisLi/D-Webpack-Plugin#readme",
+  "files": [
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@nicecode/changelog": "^0.2.0",
+    "chalk": "^4.1.2",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.30.0",
+    "husky": "^8.0.2",
+    "inquirer": "^7.3.3",
+    "semver": "^7.3.8",
+    "shelljs": "^0.8.5",
+    "standard": "^17.0.0",
+    "webpack": "^5.75.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "jszip": "^3.10.1",
+    "webpack-sources": "^3.2.3"
+  },
+  "peerDependencies": {
+    "webpack": ">=5"
+  }
+}
