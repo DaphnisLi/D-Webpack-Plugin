@@ -24,10 +24,9 @@ compilation 代表这一次资源构建的过程，在 compilation 对象中我�
 
 ### 2、以什么方式注册事件
 
-同步钩子：tab
-异步钩子：tap、tapAsync、tapPromise
-https://juejin.cn/post/7040982789650382855
+tap、tapAsync、tapPromise
 
-tapAsync 的 callback(error, result) 函数调用时接受两个参数
-error：发生错误时的错误信息
-result：本次 hook 事件函数的返回值
+参考以下图片即可
+
+<img width="746" alt="图片" src="https://user-images.githubusercontent.com/67792799/225255714-8d431577-a18f-4061-a8fb-0b4fdfb3d61d.png">
+<img width="1058" alt="image" src="https://user-images.githubusercontent.com/67792799/225256192-325f7d7d-dd8b-4f01-bdc1-fe53b7b26def.png">
